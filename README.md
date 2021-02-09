@@ -1,7 +1,7 @@
 # school-student-analysis
 
 It is a simple distribution package for loading and preprocessing data of 
-Polish schools and population created by [Statistics Poland](stat.gov.pl).
+Polish schools and population created by [Statistics Poland](https://stat.gov.pl).
 It also calculate basic statistics like min/average/max number of:
 - students per teacher broken down by the type of school (1),
 - students per school broken down by their year of birth (2),
@@ -48,12 +48,12 @@ students_by_year_of_birth.get_stats_in_total_for_urban_and_rural_areas()
 
 ## Jupyter notebook example
 
-- [students_analysis_example.ipynb](https://github.com/krzpiesiewicz/nypd2020z-school-students-analysis/blob/master/students_analysis_example.ipynb)
+- [students_analysis_example.ipynb](students_analysis_example.ipynb)
 
 ## Profile
 
-- [students_analysis_example_profiled.ipynb](https://github.com/krzpiesiewicz/nypd2020z-school-students-analysis/blob/master/students_analysis_example_profiled.ipynb)
-- [profile_analysis.txt](https://github.com/krzpiesiewicz/nypd2020z-school-students-analysis/blob/master/profile_analysis.txt)
+- [students_analysis_example_profiled.ipynb](students_analysis_example_profiled.ipynb)
+- [profile_analysis.txt](profile_analysis.txt)
 
 ## Code coverage
 
