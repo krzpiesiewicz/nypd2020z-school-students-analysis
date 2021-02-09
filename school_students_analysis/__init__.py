@@ -1,0 +1,2 @@
+from .students_per_teacher import students_per_teacher_by_the_type_of_school
+from .students_by_year_of_birth import students_by_year_of_birth
