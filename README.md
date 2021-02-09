@@ -45,3 +45,16 @@ students_by_year_of_birth.get_stats_in_total_for_urban_and_rural_areas()
 
 - [schools](https://dane.gov.pl/pl/dataset/839,wykaz-szko-i-placowek-oswiatowych/resource/16251,wykaz-szkol-i-placowek-wg-stanu-na-30ix-2018-r/table)
 - [population](https://stat.gov.pl/obszary-tematyczne/ludnosc/ludnosc/ludnosc-stan-i-struktura-oraz-ruch-naturalny-w-przekroju-terytorialnym-w-2018-r-stan-w-dniu-31-xii,6,25.html)
+
+## Jupyter notebook example
+
+- [students_analysis_example.ipynb](https://github.com/krzpiesiewicz/nypd2020z-school-students-analysis/blob/master/students_analysis_example.ipynb)
+
+## Profile
+
+- [students_analysis_example_profiled.ipynb](https://github.com/krzpiesiewicz/nypd2020z-school-students-analysis/blob/master/students_analysis_example_profiled.ipynb)
+- [profile_analysis.txt](https://github.com/krzpiesiewicz/nypd2020z-school-students-analysis/blob/master/profile_analysis.txt)
+
+## Code coverage
+
+- [coverage report](https://students.mimuw.edu.pl/~kp385996/nypd/school_students_analysis_code_coverage/)
