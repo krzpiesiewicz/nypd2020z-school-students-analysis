@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import pytest
-from final_assignment.school_students_analysis.stats import group_by, calculate_stats_on_group_by
+from .school_students_analysis.stats import group_by, calculate_stats_on_group_by
 
 def test_calculating_stats_of_sample_data():
     df = pd.DataFrame.from_dict([

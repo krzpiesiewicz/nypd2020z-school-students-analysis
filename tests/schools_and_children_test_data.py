@@ -1,4 +1,4 @@
-from final_assignment.school_students_analysis.common import attrs_names
+from .school_students_analysis.common import attrs_names
 
 
 def school_dict(no, ter, voiv, pov, dis, a_t, s_t, students,

@@ -1,7 +1,7 @@
 import pandas as pd
 import pytest
-from final_assignment.school_students_analysis.common import attrs_names
-from final_assignment.school_students_analysis import students_per_teacher_by_the_type_of_school
+from .school_students_analysis.common import attrs_names
+from .school_students_analysis import students_per_teacher_by_the_type_of_school
 from .schools_and_children_test_data import school_dict
 
 def test_in_each_school():

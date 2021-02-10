@@ -1,7 +1,7 @@
 import pandas as pd
 import pytest
-from final_assignment.school_students_analysis.common import attrs_names
-from final_assignment.school_students_analysis.io import load_schools, load_childrens_ages
+from .school_students_analysis.common import attrs_names
+from .school_students_analysis.io import load_schools, load_childrens_ages
 
 
 def test_load_nonexisting_file(tmpdir):
@@ -15,7 +15,7 @@ def test_load_nonexisting_file(tmpdir):
 def test_load_nonexisting_sheet(tmpdir):
     file = tmpdir.join("children.xls")
     pd.DataFrame([1, 2, 3]).to_excel(file, sheet_name="Sheet1")
-    with pytest.raises(KeyError):
+    with pytest.raises(Exception):
         pd.read_excel(file, sheet_name="NonexistingSheet")
 
 

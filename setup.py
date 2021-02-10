@@ -18,6 +18,8 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=["pandas", "numpy", "xlrd", "openpyxl"],
+    install_requires=["pandas>=1.2.0", "numpy>=1.20.0", "xlrd>=2.0.0",
+                      "openpyxl>=3.0.6"],
+    test_requirements = ['pytest>=6.2.0', 'xlwt>=1.3.0'],
     python_requires='>=3.6',
 )

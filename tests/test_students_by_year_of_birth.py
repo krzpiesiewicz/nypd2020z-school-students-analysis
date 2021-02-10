@@ -1,7 +1,7 @@
 import pandas as pd
 import pytest
-from final_assignment.school_students_analysis.common import attrs_names
-from final_assignment.school_students_analysis import students_by_year_of_birth
+from .school_students_analysis.common import attrs_names
+from .school_students_analysis import students_by_year_of_birth
 from .schools_and_children_test_data import school_dict, children_dict
 
 def test_students_by_year():
